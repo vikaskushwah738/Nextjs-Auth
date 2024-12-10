@@ -1,6 +1,7 @@
 import NextAuth from "next-auth";
 import Github from "next-auth/providers/github";
-import { PrismaAdapter } from "@auth/prisma-adapter";
+import { PrismaAdapter } from "@next-auth/prisma-adapter";
+
 import { prisma } from "./prisma/prisma";
 
 const ALLOWED_EMAILS = ["info@eclatengineering.com", "vikaskushwah738@gmail.com","sommetinfraweb@gmail.com"];

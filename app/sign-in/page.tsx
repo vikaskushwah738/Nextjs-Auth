@@ -1,6 +1,4 @@
-
-import LoginGithub from "@/components/GithubLogIn";
-
+import LoginGithub from "@/components/LoginWithGitHub";
 
 export default function SignInPage () {
   return (
